@@ -1,0 +1,33 @@
+.cardRecipe {
+  margin-bottom: 30px;
+}
+.cardRecipe .main {
+  height: 165px;
+  width: 300px;
+  background-color: white;
+  border-radius: 20px;
+}
+.cardRecipe .main .photo {
+  height: 106px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 18.1px 18.1px 0px 0px;
+}
+.cardRecipe .main .dis {
+  font-family: "Gilroy";
+  padding: 5px 20px;
+}
+.cardRecipe .main .dis p {
+  -webkit-margin-before: 0em;
+          margin-block-start: 0em;
+  -webkit-margin-after: 0em;
+          margin-block-end: 0em;
+}
+.cardRecipe .main .dis .title {
+  font-size: 14px;
+}
+.cardRecipe .main .dis .res {
+  color: #838383;
+  font-size: 14px;
+}/*# sourceMappingURL=cardRecipe.css.map */

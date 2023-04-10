@@ -1,0 +1,390 @@
+.contactus {
+  background: linear-gradient(
+    rgb(0, 0, 0),
+    rgba(59, 54, 54, 0.6588235294),
+    rgb(173 173 173 / 36%)
+  );
+  
+  .headercou {
+    border-bottom: 1px solid #e6e6e6;
+    height: 68px;
+    width: 100%;
+  }
+
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(1, 0fr);
+    grid-column-gap: 36px;
+    grid-row-gap: 10px;
+  }
+  .maincoun {
+    grid-area: 1 / 1 / 6 / 6;
+  }
+  .div2 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .div3 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .div4 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .div5 {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+  .div6 {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+  .div7 {
+    grid-area: 4 / 1 / 5 / 3;
+  }
+  .div8 {
+    grid-area: 5 / 1 / 6 / 3;
+  }
+
+  .navbarcou {
+    padding-top: 10px;
+    font-family: "Gilroy";
+    display: flex;
+    height: 85%;
+    max-width: 85vw;
+    margin: auto;
+   
+  }
+
+  .errormain {
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    font-family: "Gilroy";
+
+    textarea{
+    border: 2px solid #9d0d2d;
+    width: 85%;
+    height: 20%;
+    border-radius: 8px;
+    margin-right: 36px;
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 12px;
+        &::placeholder {
+        color: #cccccc;
+        font-family: "Open Sans", sans-serif;
+      }
+      &:focus {
+        outline: none;
+        border: 2px solid #057d8b;
+      }
+    
+    }
+    
+
+    input {
+        font-size: 12px;
+        color: #303030;
+        font-weight: bold;
+        font-family: "Gilroy";
+        border: 2px solid #9d0d2d;
+        width: 384px;
+        border-radius: 8px;
+        margin-right: 36px;
+        margin-top: 10px;
+        font-size: 14px;
+        padding: 12px;
+
+        &:focus{
+            outline: none;
+            border: 2px solid #057d8b;
+        }
+      }
+
+    }
+
+    .tdinputmain {
+        font-size: 12px;
+        color: white;
+        font-weight: bold;
+        font-family: "Gilroy";
+
+        input {
+            border: 2px solid #e6e6e6;
+            width: 384px;
+            border-radius: 8px;
+            margin-right: 36px;
+            margin-top: 10px;
+            font-size: 14px;
+            padding: 12px;
+
+            &:focus{
+                outline: none;
+                border: 2px solid #057d8b;
+            }
+          }
+      }
+
+      .tabson {
+        display: flex;
+        color: #308138;
+        text-decoration: none;
+        font-size: 16px;
+        margin-right: 50px;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 2px solid #308138;
+      }
+
+      .tabsoff {
+        display: flex;
+        color: #767676;
+        text-decoration: none;
+        font-size: 16px;
+        margin-right: 50px;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        &:hover {
+            border-bottom: 2px solid #308138;
+            color: #308138;
+          }
+      }
+
+      .contusform {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        max-width: 90vw;
+        margin: auto;
+        flex-wrap: wrap;
+      }
+
+      .CardRecipediv {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        max-width: 90vw;
+        margin: auto;
+        flex-wrap: wrap;
+      }
+
+      .bgcount {
+        display: flex;
+        font-size: 40px;
+        font-weight: 600;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        font-family: "Gilroy";
+        color: white;
+      }
+
+      .smcount {
+        font-size: 14px;
+        padding-top: 5px;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        color: #999999;
+      }
+      .counfrom {
+        padding-top: 40px;
+      }
+      .tdtext {
+        font-size: 12px;
+        color: #303030;
+        font-weight: bold;
+        font-family: "Gilroy";
+      }
+      .tdtext2 {
+        font-size: 12px;
+        color: #303030;
+        font-weight: bold;
+        font-family: "Gilroy";
+        padding-bottom: 15px;
+      }
+
+      .divinput {
+        display: block;
+
+        input {
+            border: 1px solid #e6e6e6;
+            width: 384px;
+            border-radius: 8px;
+            margin-right: 36px;
+            margin-top: 10px;
+            font-size: 14px;
+            padding: 12px;
+          }
+
+          label {
+            font-size: 12px;
+            color: #303030;
+            font-weight: bold;
+            font-family: "Gilroy";
+          }
+
+          .error {
+            color: #ff3860;
+            font-size: 9px;
+            height: 13px;
+
+            input {
+                border-color: #ff3860;
+              }
+          }
+
+          .success {
+            input {
+            border-color: #09c372;
+            }
+        }
+      }
+
+      .smallfr {
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        font-size: 13px;
+        color: #9d0d2d;
+      }
+
+      .smallfrn {
+        display: none;
+        color: #9d0d2d;
+      }
+
+      .error {
+        
+        input {
+        border: 2px solid #9d0d2d;
+        width: 384px;
+        border-radius: 8px;
+        margin-right: 36px;
+        margin-top: 10px;
+        font-size: 14px;
+        padding: 12px;
+        &:focus {
+            outline: none;
+            border: 2px solid #057d8b;
+          }
+      }
+    
+    }
+
+    .tdinput {
+        input {
+        border: 1px solid #e6e6e6;
+        width: 384px;
+        border-radius: 8px;
+        margin-right: 36px;
+        margin-top: 10px;
+        font-size: 14px;
+        padding: 12px;
+        &::placeholder {
+            color: #cccccc;
+            font-family: "Open Sans", sans-serif;
+          }
+        &:focus {
+            outline: none;
+            border: 2px solid #057d8b;
+          }  
+      }
+    }
+
+    .tdinputmain textarea {
+        border: 1px solid #e6e6e6;
+        width: 85%;
+        height: 20%;
+        border-radius: 8px;
+        margin-right: 36px;
+        margin-top: 10px;
+        font-size: 14px;
+        padding: 12px;
+        &::placeholder {
+            color: #cccccc;
+            font-family: "Open Sans", sans-serif;
+          }
+        &:focus {
+            outline: none;
+            border: 2px solid #057d8b;
+          }
+      }
+
+      .butsum {
+        background-color: #308138;
+        width: 164px;
+        height: 41px;
+        border-radius: 100px;
+        color: #fff;
+        border: 0px;
+        font-size: 16px;
+        text-align: center;
+        font-family: "Gilroy";
+      }
+
+      .errortext {
+        display: nane;
+      }
+
+      .susses {
+        display: block;
+      }
+
+      .tdinputmass1 {
+        width: 100%;
+        color: #308138;
+        word-wrap: break-word;
+        display: flex;
+        align-items: center;
+
+        .susses {
+            display: none;
+          }
+
+          img {
+            margin-left: 22.5px;
+            margin-right: 10.5px;
+          }
+      }
+
+      .tdinputmass1n {
+        display: none;
+      }
+
+      .divbutfor2 {
+        display: block;
+        font-size: 14px;
+      }
+
+      .divbutfor2n {
+        display: none;
+      }
+
+      .imgtdi {
+        display: flex;
+      }
+
+      .maindivbut {
+        display: flex;
+      
+        justify-items: end;
+        justify-self: end;
+      }
+      
+      .content {
+        display: none;
+      }
+
+      .active-content {
+        display: block;
+      }
+      
+      
+}
+
+
+
+
+
+
+
+
+
+

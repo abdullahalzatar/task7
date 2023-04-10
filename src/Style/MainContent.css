@@ -1,0 +1,339 @@
+.contactus {
+  background: linear-gradient(rgb(0, 0, 0), rgba(59, 54, 54, 0.6588235294), rgba(173, 173, 173, 0.36));
+}
+.contactus .headercou {
+  border-bottom: 1px solid #e6e6e6;
+  height: 68px;
+  width: 100%;
+}
+.contactus .parent {
+  display: grid;
+  grid-template-columns: repeat(1, 0fr);
+  grid-column-gap: 36px;
+  grid-row-gap: 10px;
+}
+.contactus .maincoun {
+  grid-area: 1/1/6/6;
+}
+.contactus .div2 {
+  grid-area: 1/1/2/2;
+}
+.contactus .div3 {
+  grid-area: 1/2/2/3;
+}
+.contactus .div4 {
+  grid-area: 2/1/3/2;
+}
+.contactus .div5 {
+  grid-area: 2/2/3/3;
+}
+.contactus .div6 {
+  grid-area: 3/1/4/2;
+}
+.contactus .div7 {
+  grid-area: 4/1/5/3;
+}
+.contactus .div8 {
+  grid-area: 5/1/6/3;
+}
+.contactus .navbarcou {
+  padding-top: 10px;
+  font-family: "Gilroy";
+  display: flex;
+  height: 85%;
+  max-width: 85vw;
+  margin: auto;
+}
+.contactus .errormain {
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+  font-family: "Gilroy";
+}
+.contactus .errormain textarea {
+  border: 2px solid #9d0d2d;
+  width: 85%;
+  height: 20%;
+  border-radius: 8px;
+  margin-right: 36px;
+  margin-top: 10px;
+  font-size: 14px;
+  padding: 12px;
+}
+.contactus .errormain textarea::-moz-placeholder {
+  color: #cccccc;
+  font-family: "Open Sans", sans-serif;
+}
+.contactus .errormain textarea::placeholder {
+  color: #cccccc;
+  font-family: "Open Sans", sans-serif;
+}
+.contactus .errormain textarea:focus {
+  outline: none;
+  border: 2px solid #057d8b;
+}
+.contactus .errormain input {
+  font-size: 12px;
+  color: #303030;
+  font-weight: bold;
+  font-family: "Gilroy";
+  border: 2px solid #9d0d2d;
+  width: 384px;
+  border-radius: 8px;
+  margin-right: 36px;
+  margin-top: 10px;
+  font-size: 14px;
+  padding: 12px;
+}
+.contactus .errormain input:focus {
+  outline: none;
+  border: 2px solid #057d8b;
+}
+.contactus .tdinputmain {
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+  font-family: "Gilroy";
+}
+.contactus .tdinputmain input {
+  border: 2px solid #e6e6e6;
+  width: 384px;
+  border-radius: 8px;
+  margin-right: 36px;
+  margin-top: 10px;
+  font-size: 14px;
+  padding: 12px;
+}
+.contactus .tdinputmain input:focus {
+  outline: none;
+  border: 2px solid #057d8b;
+}
+.contactus .tabson {
+  display: flex;
+  color: #308138;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 50px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #308138;
+}
+.contactus .tabsoff {
+  display: flex;
+  color: #767676;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 50px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.contactus .tabsoff:hover {
+  border-bottom: 2px solid #308138;
+  color: #308138;
+}
+.contactus .contusform {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  max-width: 90vw;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.contactus .CardRecipediv {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  max-width: 90vw;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.contactus .bgcount {
+  display: flex;
+  font-size: 40px;
+  font-weight: 600;
+  -webkit-margin-before: 0em;
+          margin-block-start: 0em;
+  -webkit-margin-after: 0em;
+          margin-block-end: 0em;
+  font-family: "Gilroy";
+  color: white;
+}
+.contactus .smcount {
+  font-size: 14px;
+  padding-top: 5px;
+  -webkit-margin-before: 0em;
+          margin-block-start: 0em;
+  -webkit-margin-after: 0em;
+          margin-block-end: 0em;
+  color: #999999;
+}
+.contactus .counfrom {
+  padding-top: 40px;
+}
+.contactus .tdtext {
+  font-size: 12px;
+  color: #303030;
+  font-weight: bold;
+  font-family: "Gilroy";
+}
+.contactus .tdtext2 {
+  font-size: 12px;
+  color: #303030;
+  font-weight: bold;
+  font-family: "Gilroy";
+  padding-bottom: 15px;
+}
+.contactus .divinput {
+  display: block;
+}
+.contactus .divinput input {
+  border: 1px solid #e6e6e6;
+  width: 384px;
+  border-radius: 8px;
+  margin-right: 36px;
+  margin-top: 10px;
+  font-size: 14px;
+  padding: 12px;
+}
+.contactus .divinput label {
+  font-size: 12px;
+  color: #303030;
+  font-weight: bold;
+  font-family: "Gilroy";
+}
+.contactus .divinput .error {
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+}
+.contactus .divinput .error input {
+  border-color: #ff3860;
+}
+.contactus .divinput .success input {
+  border-color: #09c372;
+}
+.contactus .smallfr {
+  -webkit-margin-before: 0em;
+          margin-block-start: 0em;
+  -webkit-margin-after: 0em;
+          margin-block-end: 0em;
+  font-size: 13px;
+  color: #9d0d2d;
+}
+.contactus .smallfrn {
+  display: none;
+  color: #9d0d2d;
+}
+.contactus .error input {
+  border: 2px solid #9d0d2d;
+  width: 384px;
+  border-radius: 8px;
+  margin-right: 36px;
+  margin-top: 10px;
+  font-size: 14px;
+  padding: 12px;
+}
+.contactus .error input:focus {
+  outline: none;
+  border: 2px solid #057d8b;
+}
+.contactus .tdinput input {
+  border: 1px solid #e6e6e6;
+  width: 384px;
+  border-radius: 8px;
+  margin-right: 36px;
+  margin-top: 10px;
+  font-size: 14px;
+  padding: 12px;
+}
+.contactus .tdinput input::-moz-placeholder {
+  color: #cccccc;
+  font-family: "Open Sans", sans-serif;
+}
+.contactus .tdinput input::placeholder {
+  color: #cccccc;
+  font-family: "Open Sans", sans-serif;
+}
+.contactus .tdinput input:focus {
+  outline: none;
+  border: 2px solid #057d8b;
+}
+.contactus .tdinputmain textarea {
+  border: 1px solid #e6e6e6;
+  width: 85%;
+  height: 20%;
+  border-radius: 8px;
+  margin-right: 36px;
+  margin-top: 10px;
+  font-size: 14px;
+  padding: 12px;
+}
+.contactus .tdinputmain textarea::-moz-placeholder {
+  color: #cccccc;
+  font-family: "Open Sans", sans-serif;
+}
+.contactus .tdinputmain textarea::placeholder {
+  color: #cccccc;
+  font-family: "Open Sans", sans-serif;
+}
+.contactus .tdinputmain textarea:focus {
+  outline: none;
+  border: 2px solid #057d8b;
+}
+.contactus .butsum {
+  background-color: #308138;
+  width: 164px;
+  height: 41px;
+  border-radius: 100px;
+  color: #fff;
+  border: 0px;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Gilroy";
+}
+.contactus .errortext {
+  display: nane;
+}
+.contactus .susses {
+  display: block;
+}
+.contactus .tdinputmass1 {
+  width: 100%;
+  color: #308138;
+  word-wrap: break-word;
+  display: flex;
+  align-items: center;
+}
+.contactus .tdinputmass1 .susses {
+  display: none;
+}
+.contactus .tdinputmass1 img {
+  margin-left: 22.5px;
+  margin-right: 10.5px;
+}
+.contactus .tdinputmass1n {
+  display: none;
+}
+.contactus .divbutfor2 {
+  display: block;
+  font-size: 14px;
+}
+.contactus .divbutfor2n {
+  display: none;
+}
+.contactus .imgtdi {
+  display: flex;
+}
+.contactus .maindivbut {
+  display: flex;
+  justify-items: end;
+  justify-self: end;
+}
+.contactus .content {
+  display: none;
+}
+.contactus .active-content {
+  display: block;
+}/*# sourceMappingURL=MainContent.css.map */
