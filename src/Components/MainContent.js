@@ -16,7 +16,7 @@ const mass = document.getElementsByClassName("mass");
 const [values, setValue] = useState()
   
 useEffect(() => {
-  fetch(`https://api.spoonacular.com/recipes/complexSearch?apiKey=7aaf410a3da0448981ba295e58cd292d&number=10`)
+   fetch(`https://api.spoonacular.com/recipes/complexSearch?apiKey=7aaf410a3da0448981ba295e58cd292d&number=10`)
    .then((response) => response.json())
    .then((actualData) => setValue(actualData.results))
    .catch((err) => {
