@@ -26,115 +26,11 @@ useEffect(() => {
 }, []);
   
     const [toggleState, setToggleState] = useState(1);
-    const [toggle2State, setToggle2State] = useState(1);
-    const [toggle3State, setToggle3State] = useState(1);
-    const [toggle4State, setToggle4State] = useState(1);
-    const [toggle5State, setToggle5State] = useState(1);
+  
 
   const toggleTab = (index) => {
     setToggleState(index);
   };
-
-  const toggle2Tab = (index) => {
-    setToggle2State(index);
-  };
-
-  const toggle3Tab = (index) => {
-    setToggle3State(index);
-  };
-
-  const toggle4Tab = (index) => {
-    setToggle4State(index);
-  };
-
-  const toggle5Tab = (index) => {
-    setToggle5State(index);
-  };
-  const  handleSubmit = async (e)=> {
-    e.preventDefault();
-    
-    if (username[0].value === "") {
-        
-         toggle2Tab(2);
-         toggle3Tab(2);
-         toggle4Tab(2);
-         toggle5Tab(2);
-
-      } else { 
-       
-        toggle2Tab(1);
-        toggle3Tab(1);
-       
-
-        if(lastname[0].value === ""){
-            toggle2Tab(3);
-            toggle3Tab(3);
-            toggle4Tab(2);
-            toggle5Tab(2);
-        
-         } else { 
-       
-        toggle2Tab(1);
-        toggle3Tab(1);
-        
-
-           if(email[0].value === ""){
-            toggle2Tab(4);
-            toggle3Tab(4);
-            toggle4Tab(2);
-            toggle5Tab(2);
-        
-             } else { 
-       
-            toggle2Tab(1);
-            toggle3Tab(1);
-           
-
-            if(phone[0].value === ""){
-                toggle2Tab(5);
-                toggle3Tab(5);
-                toggle4Tab(2);
-               toggle5Tab(2);
-            
-             } else { 
-           
-            toggle2Tab(1);
-            toggle3Tab(1);
-            
-
-            if(massgty[0].value === ""){
-                toggle2Tab(6);
-                toggle3Tab(6);
-                toggle4Tab(2);
-                toggle5Tab(2);
-            
-             } else { 
-           
-            toggle2Tab(1);
-            toggle3Tab(1);
-         
-
-            if(mass[0].value === ""){
-                toggle2Tab(7);
-                toggle3Tab(7);
-                toggle4Tab(2);
-                toggle5Tab(2);
-            
-             } else { 
-            
-            toggle2Tab(1);
-            toggle3Tab(1);
-            toggle4Tab(2);
-            toggle5Tab(1);
-           
-            }
-            }
-            }
-            }
-        }
-      }
-   
-  } 
 
  
 
@@ -164,8 +60,6 @@ useEffect(() => {
         </div>
 
         <div className={toggleState === 2 ? "content  active-content" : "content"}>
-        
-       
         </div>
 
         <div className={toggleState === 3 ? "content  active-content" : "content"}>
