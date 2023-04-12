@@ -22,8 +22,8 @@ function Header() {
         <a href="#search">Login</a>
         <a href="#SaudiCalendar"><hr></hr></a>
         <a href="#perosn">Register</a>
-        <a href="#perosn"><img src={perosn}></img></a>
-        <a href="#perosn"><img src={cart}></img></a>
+        <a href="#perosn"><img src={perosn} alt='#'></img></a>
+        <a href="#perosn"><img src={cart} alt='#'></img></a>
         </div>
       </div>
       <div className="squ">

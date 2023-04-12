@@ -4,7 +4,6 @@ import Android from "../Assets/Store-Android-Badges.png";
 import Apple from "../Assets/Store-Apple-Badges.png";
 import Twitter from "../Assets/Twitter.png";
 import Youtube from "../Assets/Youtube.png";
-import Menu from "../Assets/Menu-Button.png";
 import Money from "../Assets/Money-Icon.png";
 import Instagram from "../Assets/Instagram.png";
 import Facebook from "../Assets/Facebook.png";
@@ -28,13 +27,13 @@ function Footer() {
                 <div class="footer-main__icons--top--item">
                     <p>Preferences</p>
                     <div class="footer-main__icons--top--contact">
-                        <img src={Language} width="20px"></img>
+                        <img src={Language} width="20px" alt='#'></img>
                         <select class="header-main__top__select">
                             <option value="1" class="header-main__top__select--first">English</option>
                             <option value="2" class="header-main__top__select--sec">Arabic</option>
                         </select>
 
-                        <img src={Money}></img>
+                        <img src={Money} alt='#'></img>
                         <select>
                             <option value="1">USD</option>
                             <option value="2">JOD</option>
@@ -56,8 +55,8 @@ function Footer() {
                 <div class="footer-main__icons--top--item">
                     <p>Download our mobile app</p>
                     <div className="footer-main__icons--top--item--Badges">
-                        <img src={Android}></img>
-                        <img src={Apple}></img>
+                        <img src={Android} alt='#'></img>
+                        <img src={Apple} alt='#'></img>
                     </div>
 
 
@@ -76,10 +75,10 @@ function Footer() {
                             <div class="footer-main__icons--bot--navbar__secdiv--main">
                                 <div>Connect with us</div>
                                 <div class="footer-main__socialmedia">
-                                    <div><img src={Instagram}></img></div>
-                                    <div><img src={Facebook}></img></div>
-                                    <div><img src={Youtube}></img></div>
-                                    <div><img src={Twitter}></img></div>
+                                    <div><img src={Instagram} alt='#'></img></div>
+                                    <div><img src={Facebook} alt='#'></img></div>
+                                    <div><img src={Youtube} alt='#'></img></div>
+                                    <div><img src={Twitter} alt='#'></img></div>
                                 </div>
                                 <div>
                                     <hr class="footer-main__icons--bot--hr">
@@ -89,7 +88,7 @@ function Footer() {
                             <div class="footer-main__socialmedia">
                                 <p class="footer-main__backbox">Back to Top</p>
                                 <p class="footer-main__mobbackbox">&copy;Copy rights</p><img
-                                    src={Button}></img>
+                                    src={Button} alt='#'></img>
                             </div>
                         </div>
                     </a>

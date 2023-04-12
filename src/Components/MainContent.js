@@ -3,6 +3,7 @@ import markx from "../Assets/Default.svg";
 import mark from "../Assets/mark.svg";
 import CardRecipe from "./CardRecipe.js";
 import { useState,useEffect } from "react";
+import axios from 'axios';
 
 function MainContent() {
   
@@ -16,16 +17,13 @@ const mass = document.getElementsByClassName("mass");
 const [values, setValue] = useState()
   
 useEffect(() => {
-   fetch(`https://api.spoonacular.com/recipes/complexSearch?apiKey=7aaf410a3da0448981ba295e58cd292d&number=10`)
-   .then((response) => response.json())
-   .then((actualData) => setValue(actualData.results))
-   .catch((err) => {
-    console.log(err.message);
-   });
- }, []);
- 
- console.log(values);
- 
+
+ axios.get(`https://api.spoonacular.com/recipes/complexSearch?apiKey=7aaf410a3da0448981ba295e58cd292d&number=10`)
+.then((response)=> setValue(response.data.results))
+.catch((err) => {console.log(err.message);});
+
+}, []);
+  
     const [toggleState, setToggleState] = useState(1);
     const [toggle2State, setToggle2State] = useState(1);
     const [toggle3State, setToggle3State] = useState(1);
@@ -192,7 +190,7 @@ useEffect(() => {
     <div>
 <button className="butsum" type="submit">Send Message</button>
 </div>
-<div className={toggle4State === 1? "tdinputmass1n": "tdinputmass1"}><div className="imgtdi" ><img src={toggle5State === 1? mark: markx} ></img></div><div> <i className={toggle5State === 1? "errortext": "susses"}>Your message has been sent successfully. We will get back to you soon.</i> <i className={toggle5State === 1? "susses":"errortext" } style={{color: "#9D0D2D"}}>An error occurred while sending your message. Please try again.</i></div></div>
+<div className={toggle4State === 1? "tdinputmass1n": "tdinputmass1"}><div className="imgtdi" ><img src={toggle5State === 1? mark: markx} alt='#'></img></div><div> <i className={toggle5State === 1? "errortext": "susses"}>Your message has been sent successfully. We will get back to you soon.</i> <i className={toggle5State === 1? "susses":"errortext" } style={{color: "#9D0D2D"}}>An error occurred while sending your message. Please try again.</i></div></div>
 </div></div>
 
 

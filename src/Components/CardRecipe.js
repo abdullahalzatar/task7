@@ -1,6 +1,4 @@
 import '../Style/cardRecipe.css';
-import poto from "../Assets/pexels-valeria-boltneva-1833349.jpg"
-
 
 function CardRecipe(props) {
     console.log(props)
